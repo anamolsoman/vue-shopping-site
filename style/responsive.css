@@ -1,0 +1,21 @@
+@media (max-width: 1199px) {
+  .home-section .home-img img {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  .home-section .home-img {
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .home-section .home-img {
+    margin-bottom: 40px;
+  }
+  .home-section {
+    padding: 100px 0px 100px;
+  }
+}
+body {
+  background-color: green;
+}
