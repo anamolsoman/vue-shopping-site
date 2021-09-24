@@ -15,6 +15,13 @@
   .home-section {
     padding: 100px 0px 100px;
   }
+  .about-section {
+    padding: 10px;
+  }
+  .about-section .about-image img {
+    max-width: 650px;
+    width: 100%;
+  }
 }
 body {
   background-color: green;
