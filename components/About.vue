@@ -7,6 +7,12 @@
             <img :src="require('static/img/watch-02.jpg')" alt="about-image" />
           </div>
         </div>
+        <div class="col-lg-6">
+          <div class="about-title">
+            <div class="title"></div>
+            <div class="subtitle"></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -20,6 +26,7 @@
   width: 100%;
 }
 .about-section .about-image {
+  text-align: center;
   margin: auto;
 }
 </style>
