@@ -40,7 +40,7 @@
       <v-btn class="ma-1 hidden-sm-and-down" to="/contact" text>Contact</v-btn>
       <v-spacer />
     </v-app-bar>
-    <v-main>
+    <v-main class="backgound-color">
       <Nuxt />
     </v-main>
 
@@ -92,5 +92,8 @@ export default {
 }
 a {
   text-decoration: none !important;
+}
+.backgound-color {
+  background-color: rgb(246, 249, 252);
 }
 </style>
